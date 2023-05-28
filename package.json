@@ -1,0 +1,25 @@
+{
+  "name": "ahj_http_backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/OlegLobantsev/ahj_http_backend.git",
+  "author": "OlegLobantsev",
+  "license": "MIT",
+  "scripts": {
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/OlegLobantsev/ahj_http_backend.git/issues"
+  },
+  "homepage": "https://github.com/OlegLobantsev/ahj_http_backend.git#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^0.14.2",
+    "koa": "^2.13.0",
+    "koa-body": "^4.2.0",
+    "koa-cors": "^0.0.16",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.0"
+  }
+}
